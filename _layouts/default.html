@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-UK" }}">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -7,18 +7,40 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
   </head>
-  <body>  
-    <nav>
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/about/' | relative_url }}">About</a>
-      <a href="{{ '/projects/' | relative_url }}">Projects</a>
-      <a href="{{ '/publications/' | relative_url }}">Publications</a>
-      <a href="{{ '/journal/' | relative_url }}">Policy Unmaking</a>
-      <a href="{{ '/contacts/' | relative_url }}">Contacts</a>
+ <body>
+  <div class="top-bar">
+    <header class="site-header">
+  <a href="{{ '/' | relative_url }}" class="site-logo">
+    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }}">
+  </a>
+  </header>
+    <nav class="site-nav">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="{{ '/' | relative_url }}">home</a>
+        <a href="{{ '/about/' | relative_url }}">about</a>
+        <a href="{{ '/projects/' | relative_url }}">projects</a>
+        <a href="{{ '/publications/' | relative_url }}">publications</a>
+        <a href="{{ '/journal/' | relative_url }}">blog</a>
+        <a href="{{ '/contacts/' | relative_url }}">contacts</a>
+      </div>
     </nav>
-    <hr>
-    {{ content }}
-  </body>
+  </div>
+
+  <script>
+    document.getElementById('navToggle').addEventListener('click', function() {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+  </script>
+
+  {{ content }}
+
+</body>
 </html>
+

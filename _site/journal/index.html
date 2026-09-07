@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-UK">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -7,29 +7,60 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
   </head>
-  <body>  
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about/">About</a>
-      <a href="/projects/">Projects</a>
-      <a href="/publications/">Publications</a>
-      <a href="/journal/">Policy Unmaking</a>
-      <a href="/contacts/">Contacts</a>
+ <body>
+  <div class="top-bar">
+    <header class="site-header">
+  <a href="/" class="site-logo">
+    <img src="/assets/images/logo.png" alt="Giuseppe Cannata">
+  </a>
+  </header>
+    <nav class="site-nav">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="/">home</a>
+        <a href="/about/">about</a>
+        <a href="/projects/">projects</a>
+        <a href="/publications/">publications</a>
+        <a href="/journal/">blog</a>
+        <a href="/contacts/">contacts</a>
+      </div>
     </nav>
-    <hr>
-    <h1 id="policy-unmaking">Policy Unmaking</h1>
+  </div>
 
-<ul>
+  <script>
+    document.getElementById('navToggle').addEventListener('click', function() {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+  </script>
+
+  <div class="journal-header">
+  <img src="/assets/images/unmaking.png" alt="Policy Unmaking" class="journal-banner" />
+  <div class="journal-intro">
+    <h1>Policy Unmaking</h1>
+    <p style="font-size: 0.8rem;">Half research digest, half cynical personal journal. Someone once said that policymaking is a big pot that many stir. Knowing who stirs it, what's in the pot and what recipes is being follew helps us understanding what we get on the plate. Unpaking this recipes, is the goal of this blog, which tries to combine research and the everyday, with a public policy theory twist. </p>
+  </div>
+</div>
+
+<div class="journal-list">
   
-    <li>
-      <a href="/2026/09/06/intro.html">Intro</a>
-      — September 06, 2026
-    </li>
+    <a href="/2026/09/06/intro.html" class="journal-entry">
+      <span class="journal-date">September 06, 2026</span>
+      <h2>For the people, by the peephole</h2>
+      
+        <p class="journal-excerpt">It is common wisdom among journalists that, to ensure that a lead covers all the main points of a story, one must follow the five 'Ws': who, where, why, and what the hell were you thinking when you...</p>
+      
+    </a>
   
-</ul>
+</div>
 
 
-  </body>
+
+</body>
 </html>
+

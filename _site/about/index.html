@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-UK">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -7,32 +7,54 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
   </head>
-  <body>  
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about/">About</a>
-      <a href="/projects/">Projects</a>
-      <a href="/publications/">Publications</a>
-      <a href="/journal/">Policy Unmaking</a>
-      <a href="/contacts/">Contacts</a>
+ <body>
+  <div class="top-bar">
+    <header class="site-header">
+  <a href="/" class="site-logo">
+    <img src="/assets/images/logo.png" alt="Giuseppe Cannata">
+  </a>
+  </header>
+    <nav class="site-nav">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="/">home</a>
+        <a href="/about/">about</a>
+        <a href="/projects/">projects</a>
+        <a href="/publications/">publications</a>
+        <a href="/journal/">blog</a>
+        <a href="/contacts/">contacts</a>
+      </div>
     </nav>
-    <hr>
-    <p><img src="/assets/images/propic_mustard.jpg" alt="Giuseppe Cannata" class="profile-photo" /></p>
+  </div>
+
+  <script>
+    document.getElementById('navToggle').addEventListener('click', function() {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+  </script>
+
+  <p><img src="/assets/images/propic_mustard.jpg" alt="Giuseppe Cannata" class="profile-photo" /></p>
 
 <h1 id="about">About</h1>
 
 <p>I am a doctoral researcher in <em>Transational Governance</em> – yes, I myself have been struggling to figure out what it means. More practically, I do research on public policy and would go as far as describing myself as a policy analyst. I have been doing research on quite a few topics in the scholarly field of ‘EU stuff’, and I have also worked hands-on at the science-policy interface, especially on projects concerning knowledge brokerage and science-for-policy initiatives.</p>
 
-<p>I have spent my adult life so far wrapping my head around policymaking and how it occurs – in all fairness, with rather modest results – and I feel like it has not been time well spent.</p>
+<p>I have spent my adult life so far wrapping my head around policymaking and how it occurs – in all fairness, with rather modest results, but you can find more about it on the <a href="/publications/">publications</a> page.</p>
 
-<p>About me, I like Pina Coladas and getting caught in the rain, but what I am really keen on is sarcasm. I am fluent in cynicism and and I guess wordplay in titles are the only salvageable part of my academic work. In my research, I have explored different approaches and methods applied to the study energy and climate policy, migration governance, and the role(s) of knowledge and evidence in policymaking, with a particular focus on the European Union context.</p>
+<p>I like many things but seldom have the but what I am really keen on is sarcasm. I am fluent in cynicism and I guess wordplays in the titles are the only salvageable part of my academic work. In my research, I have explored different approaches and methods applied to the study energy and climate policy, migration governance, and the role(s) of knowledge and evidence in policymaking, with a particular focus on the European Union context.</p>
 
 <div style="clear: both;"></div>
 
 <h1 id="cv">CV</h1>
 
 
-  </body>
+
+</body>
 </html>
+
