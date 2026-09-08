@@ -8,7 +8,7 @@ title: "Home"
   <div class="home-intro">
     
 
-    <p>Welcome on my work-in-progress personal website. I figured that rather than hosting what I have published and done on scattered platforms it was about time to make my own website, as the cool researcher's etiquette requires.
+    <p>Welcome to my work-in-progress personal website. I figured that rather than hosting what I have published and done on scattered platforms it was about time to make my own website, as the cool researcher's etiquette requires.
     
     Here you can find my academic work and a few projects I have been working on.</p>
   </div>
