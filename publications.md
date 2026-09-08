@@ -6,7 +6,7 @@ permalink: /publications/
 
 # Publications
 
-Here is a selection of stuff I have published, including both academic articles and a few less boring pieces, which people might actually find not unpleasant to read.
+Here is a selection of the various things I have published, including both academic articles and a few less boring pieces that people might actually find not unpleasant to read.
 
 ## Articles
 

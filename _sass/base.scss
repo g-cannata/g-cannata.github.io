@@ -2,7 +2,7 @@ $color-bg: #FFFFFF;
 $color-text: #1A1A1A;
 $color-accent: #C6941F;
 $color-decor: #FFCE19;
-$color-muted: #383E42;
+$color-muted: #787276;
 
 // General Settings
 
@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: $color-text;
   margin-top: 1.2rem;
@@ -55,8 +55,8 @@ a {
 }
 
 .home-photo {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 50%;
   flex-shrink: 0;
@@ -316,8 +316,8 @@ a {
 }
 
 .journal-banner {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   flex-shrink: 0;
   border-radius: 8px;
   margin-bottom: 2rem;
@@ -357,23 +357,24 @@ a {
     margin: 0.6rem 0 0.3rem;
   }
 
-  p {
+  p {font-size: 0.8rem;
     text-align: left;
   }
 }
 
 .project-tag {
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  color: $color-accent;
   text-transform: uppercase;
+  color: $color-accent;
   letter-spacing: 0.05em;
 }
 
 .project-subtitle {
   color: $color-muted;
-  font-size: 0.9rem;
+  font-weight: 600;
+  font-size: 0.8rem;
   margin-bottom: 0.8rem;
 }
 
