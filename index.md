@@ -7,10 +7,10 @@ title: "Home"
   <img src="{{ '/assets/images/propic_mustard.jpg' | relative_url }}" alt="Giuseppe Cannata" class="home-photo">
   <div class="home-intro">
     
-
     <p>Welcome to my (still work-in-progress) personal website. I figured that rather than hosting wmy ramblings and publications on scattered platforms, it was about time to cre my own website, as the cool researcher's playbook requires.
     
-    Here you can find links to my past academic work, ongoing projects, and a few quite random things I have been working on.</p>
+    Here you can find links to my past academic work, ongoing projects, and a few quite random things I have been working on.
+    </p>
   </div>
 </div>
 
@@ -20,11 +20,11 @@ Policy, knowledge and learning have been the keywords I have been working with o
 
 This is not to say that power doesn't matter and everyone's genuinely endeavouring to learn how to do things better. Learning is not neutral, and the meaning of 'better' is contextual, constructed, and value-laden. But looking at how people, politicians, bureaucrats and interested parties of sort try to figure out what the best course of action is, for them, is a powerful analytical device. 
 
-## Energy, climate and the EU
+## Thinking about EU energy and climate governance
 
-While I have been working on different topics, over the years, my recent work has been focusing on energy and climate governance, in the context of the European Union (EU). I have spent more time than I would have expected grappling with energy efficiency as a central concept of EU energy policy and the ways in which EU policies for the so-called green transition shape, and are in turn shaped, by the measurment infrastructures, knowledge validation procedures and mundane administative practices that organise policymaking. 
+While I have been working on different topics, over the years, my recent research has been focusing on energy and climate governance, in the specific context of the European Union (EU). I have spent more time than I would have imagined grappling with the idea of energy efficiency as a central concept of EU energy governance and the ways in which EU policies for the green transition shape – and are, in turn, shaped – by the measurment infrastructures, knowledge validation procedures and mundane administative practices that organise policymaking. 
 
-I can tell you all about ways of regulating energy consumption in buildings, district heating, or measuring energy savings, but I will probably get flustered once we get to the technical details. Here's the irony of political science, knowing all about some object or phenomenon is thought of, framed and regulated does not entail knowing all about that object. But that's also what I find most fascinating about it, you know, the fact that we work with people's understandings of things, what they do with knowledge, power and tools rather than the inherent properties of the objects – be it large language models of house boilers – they work with and upon. 
+I can tell you all about the different schemes to reduces energy consumption, energy performance in buildings, or the tools measuring energy savings. At the same time, and here's the irony, I have spent four years working on energy efficiency policy but I still would not be able to explain and would probably get flustered if asked about how domestic heating works. But that's also what I found fascinating about the work we, social scientists of sorts, do: we inquire about people's understandings of things, what they do with knowledge(s) they have, how they frame, order, govern certain objects or phenomena, rather than the inherent properties of the objects they work with and upon. 
 
 ## Tightrope walking at the science-policy interface
 
