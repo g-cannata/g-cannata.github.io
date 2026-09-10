@@ -6,7 +6,7 @@ permalink: /projects/
 
 # Projects
 
-Here hare some research projects I have been working on. Some are scattered across publications, some yet to find their form and destination.
+ Over the past few years, I have worked on different projects. Some are scattered across publications, some yet to find their form and destination, but you can read about them in these fancy flashcards I have somehow managed to put below.
 
 <div class="project-grid">
 
