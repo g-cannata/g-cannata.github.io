@@ -6,7 +6,16 @@ permalink: /publications/
 
 # Publications
 
-Here is a selection of the various things I have published, including both academic articles and a few less boring pieces that people might actually find not unpleasant to read.
+Here is a selection of the various things I have published, including both academic articles and a few less boring pieces that people might actually find not unpleasant to read. I try as much as possible to make my research open access, but if you are struggling with paywalls feel free to [contact]({{ '/contacts/' | relative_url }}) me.
+
+<div class="social-links">
+
+<a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="scholar-link">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.24 14.978 9.5 12 9.5c-2.977 0-5.548 1.74-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+  <span>Check the pubblications on Google Scholar</span>
+</a>
+
+</div>
 
 ## Articles
 

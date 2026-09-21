@@ -11,6 +11,7 @@ permalink: /projects/
 <div class="project-grid">
 
   <div class="project-card">
+    <img src="{{ '/assets/images/eco-house.png' | relative_url }}" alt="Project thumbnail" class="project-image">
     <span class="project-tag">ongoing</span>
     <h2>It's not the heat, it's the affordability</h2>
     <p class="project-subtitle">Governing energy poverty in the EU</p>
@@ -18,11 +19,15 @@ permalink: /projects/
   </div>
 
   <div class="project-card">
+    <img src="{{ '/assets/images/atomicfist.png' | relative_url }}" alt="Project thumbnail" class="project-image">
     <span class="project-tag">completed</span>
     <h2>Knowledge is power (saving)</h2>
     <p class="project-subtitle">Policy learning and epistemic dynamics in EU energy efficiency governance</p>
     <p> Building on fieldwork, documents, and interviews, the thesis reconstructs how energy governance is reconfigured in practice through learning, by retracing the revision of EU energy efficiency legislation. In advancing an account of learning as the contingent, iterative adjustment of actors' interpretive and operational repertoires, this research contributes to theorising learning as an inherent dimension of policy work and to understanding the dynamics that underpin EU energy and climate governance more broadly. Policy work emerges at once as 'political' and 'knowledge work'. Attending to its epistemic dimension, I argue, offers a fruitful lens for making sense of governance under uncertainty and technical complexity.
  </p>
+ <div class="project-link"> 
+ <a href="https://zenodo.org/records/22881256" class="project-link">READ THE RESEARCH BRIEF</a>
+ </div>
   </div>
 
   <div class="project-card">
