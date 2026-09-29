@@ -339,12 +339,19 @@ a {
     margin: 0 auto 1.5rem;
   }
   .journal-header {
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+  }
+  .journal-intro {
+    text-align: left;
+  }
+  .journal-intro h1,
+  .journal-intro p:first-of-type {
     text-align: center;
   }
   .journal-banner {
-    margin: 0 auto;
+    float: none;
+    display: block;
+    margin: 0 auto 1.5rem;
   }
 }
 
