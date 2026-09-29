@@ -241,6 +241,9 @@ a {
 }
 
 .journal-header {
+  display: flex;             // Replaces float layout
+  align-items: flex-start;
+  gap: 1.8rem;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
 }
@@ -250,12 +253,11 @@ a {
   height: 180px;
   object-fit: cover;
   border-radius: 8px;
-  float: left;
-  margin-right: 1.8rem;
-  margin-bottom: 1rem;
+  flex-shrink: 0;            // Keeps image perfectly square
 }
 
 .journal-intro {
+  flex: 1;
   h1 {
     margin-top: 0;
   }
@@ -393,10 +395,12 @@ a {
   }
 
   .journal-header {
-    text-align: center;
+    flex-direction: column;  // Stacks image above text on mobile
+    align-items: center;
   }
 
   .journal-intro {
+    width: 100%;
     text-align: left;
 
     h1, 
@@ -406,8 +410,6 @@ a {
   }
 
   .journal-banner {
-    float: none;
-    display: block;
     margin: 0 auto 1.5rem;
   }
 }
