@@ -54,6 +54,7 @@ a {
   flex: 1;
 }
 .home-intro h1 {
+  font-size: 1.3rem;
   margin-top: 0;
 }
 
@@ -207,9 +208,6 @@ a {
 }
 
 .journal-header {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.8rem;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
 }
@@ -217,14 +215,13 @@ a {
 .journal-banner {
   width: 180px;
   height: 180px;
-  flex-shrink: 0;
+  object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 2rem;
+  float: left;
+  margin-right: 1.8rem;
+  margin-bottom: 1rem;
 }
 
-.journal-intro {
-  flex: 1;
-}
 .journal-intro h1 {
   margin-top: 0;
 }
